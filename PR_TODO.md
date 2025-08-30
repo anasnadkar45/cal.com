@@ -1,5 +1,7 @@
 # Possible issue:
 
+![Connect Github Pn](/images/ConnectGithub.png)
+
 - We won't be able to use already built calendar-cache when Delegation Credential is enabled because existing CalendarCache entries don't have userId set.
 
 ## Approach of always using SelectedCalendar.credentialId for CalendarCache even for DelegationCredentials

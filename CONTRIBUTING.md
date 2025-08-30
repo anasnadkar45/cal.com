@@ -16,20 +16,20 @@ For bugs, security, performance, documentation, etc., you can start coding immed
 
 We highly value new feature ideas, but to maintain consistency in the product direction, they must go through a review and approval process.
 
-### 🚫 Don’t Just Drop a Link
+### 🚫 Don't Just Drop a Link
 
-Avoid posting third-party links (e.g., Slack threads or Linear tickets) without context. A GitHub issue or PR should stand on its own—reviewers shouldn’t have to chase information across multiple tools to understand the context.
+Avoid posting third-party links (e.g., Slack threads or Linear tickets) without context. A GitHub issue or PR should stand on its own—reviewers shouldn't have to chase information across multiple tools to understand the context.
 
 ### 👀 Think Like a Reviewer
 
-Put yourself in the reviewer’s shoes. What would you want to know if reading this for the first time? Are there key decisions, goals, or constraints that need clarification? Does the PR assume knowledge that isn’t obvious? Are there related issues or previous PRs that should be linked?
+Put yourself in the reviewer's shoes. What would you want to know if reading this for the first time? Are there key decisions, goals, or constraints that need clarification? Does the PR assume knowledge that isn't obvious? Are there related issues or previous PRs that should be linked?
 
 ### 🧵 Bring in Context from Private Channels
 
 If the task originated from a private conversation (e.g., Slack), take a moment to extract the relevant details and include them in the GitHub issue or PR. Avoid sharing sensitive information, but make sure important reasoning is captured.
 
 > Example:  
-> “A user requested feature X to solve problem Y. I considered approaches A, B, and C, but chose C for the following reasons…”
+> "A user requested feature X to solve problem Y. I considered approaches A, B, and C, but chose C for the following reasons…"
 
 ### 📚 Treat It Like Documentation
 
@@ -37,22 +37,22 @@ GitHub is a shared source of truth. Every issue and PR contributes to the long-t
 
 ### ✅ Summarize Your PR at the Top
 
-Even if the code changes are minor or self-explanatory, a short written summary helps reviewers quickly understand the intent. You can use GitHub Copilot’s auto-summarize feature, but make sure to verify it for accuracy and relevance.
+Even if the code changes are minor or self-explanatory, a short written summary helps reviewers quickly understand the intent. You can use GitHub Copilot's auto-summarize feature, but make sure to verify it for accuracy and relevance.
 
 ### 🔗 Use GitHub Keywords to Auto-Link Issues
 
-Use phrases like “Closes #123” or “Fixes #456” in your PR descriptions. This automatically links your PR to the related issue and closes it once merged—keeping everything traceable and organized.
+Use phrases like "Closes #123" or "Fixes #456" in your PR descriptions. This automatically links your PR to the related issue and closes it once merged—keeping everything traceable and organized.
 
 ### 🧪 Mention What Was Tested (and How)
 
-Explain how you validated your changes. It doesn’t need to be exhaustive—just enough to give reviewers confidence that things were tested and work as expected.
+Explain how you validated your changes. It doesn't need to be exhaustive—just enough to give reviewers confidence that things were tested and work as expected.
 
 > Example:  
-> “Tested locally with mock data and confirmed the flow works on staging.”
+> "Tested locally with mock data and confirmed the flow works on staging."
 
-### 🧠 Assume Future-You Won’t Remember
+### 🧠 Assume Future-You Won't Remember
 
-Write with the future in mind. If there are trade-offs, edge cases, or temporary workarounds, document them clearly so they don’t get lost or misinterpreted later.
+Write with the future in mind. If there are trade-offs, edge cases, or temporary workarounds, document them clearly so they don't get lost or misinterpreted later.
 
 ## Priorities
 
@@ -65,7 +65,7 @@ Write with the future in mind. If there are trade-offs, edge cases, or temporary
     <td>Minor improvements, non-core feature requests</td>
     <td>
       <a href="https://github.com/calcom/cal.com/issues?q=is:issue+is:open+sort:updated-desc+label:%22Low+priority%22">
-        <img src="https://img.shields.io/badge/-Low%20Priority-green">
+        <img src="https://img.shields.io/badge/-Low%20Priority-green" />
       </a>
     </td>
   </tr>
@@ -73,7 +73,7 @@ Write with the future in mind. If there are trade-offs, edge cases, or temporary
     <td>Confusing UX (but still functional)</td>
     <td>
       <a href="https://github.com/calcom/cal.com/issues?q=is:issue+is:open+sort:updated-desc+label:%22Medium+priority%22">
-        <img src="https://img.shields.io/badge/-Medium%20Priority-yellow">
+        <img src="https://img.shields.io/badge/-Medium%20Priority-yellow" />
       </a>
     </td>
   </tr>
@@ -81,7 +81,7 @@ Write with the future in mind. If there are trade-offs, edge cases, or temporary
     <td>Core Features (Booking page, availability, timezone calculation)</td>
     <td>
       <a href="https://github.com/calcom/cal.com/issues?q=is:issue+is:open+sort:updated-desc+label:%22High+priority%22">
-        <img src="https://img.shields.io/badge/-High%20Priority-orange">
+        <img src="https://img.shields.io/badge/-High%20Priority-orange" />
       </a>
     </td>
   </tr>
@@ -89,7 +89,7 @@ Write with the future in mind. If there are trade-offs, edge cases, or temporary
     <td>Core Bugs (Login, Booking page, Emails not working)</td>
     <td>
       <a href="https://github.com/calcom/cal.com/issues?q=is:issue+is:open+sort:updated-desc+label:Urgent">
-        <img src="https://img.shields.io/badge/-Urgent-red">
+        <img src="https://img.shields.io/badge/-Urgent-red" />
       </a>
     </td>
   </tr>
